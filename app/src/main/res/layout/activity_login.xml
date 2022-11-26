@@ -38,5 +38,29 @@
         android:hint="Password"
         android:paddingLeft="10dp" />
 
+    <Button
+        android:id="@+id/idloginB"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:layout_marginTop="10dp"
+        android:text="Log in" />
+
+    <Button
+        android:id="@+id/idSignB"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idloginB"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up" />
+
 
 </RelativeLayout>
