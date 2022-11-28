@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.BlankFragment">
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dance2"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="130dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_background"
+        android:hint="Password"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/ent_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_background"
+        android:hint="Name"
+        android:paddingLeft="10dp" />
+
+
+    <EditText
+        android:id="@+id/ent_Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_background"
+        android:hint="Email"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/btn_back"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/idSignB"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        android:text="Sign Up"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</FrameLayout>
